@@ -23,7 +23,18 @@ The objective of this project is to analyze a diamond database through two main 
 
 - <strong>diamonds_train.csv </strong> - the main dataset.
 
-- <strong>API:</strong> from the [Open Skilss Project](http://dataatwork.org/data/)
+##### Features
+
+- carat: weight of the diamond
+- cut: quality of the cut (Fair, Good, Very Good, Premium, Ideal)
+- color: diamond colour, from J (worst) to D (best)
+- clarity: a measurement of how clear the diamond is (I1 (worst), SI2, SI1, VS2, VS1, VVS2, VVS1, IF (best))
+- depth: total depth percentage = z / mean(x, y) = 2 * z / (x + y) (43--79)
+- table: width of top of diamond relative to widest point (43--95))
+- price: price in USD
+- x: length in mm
+- y: width in mm
+- z: depth in mm
 
 ## Exploratory data analysis report: Instructions
 
