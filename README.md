@@ -7,10 +7,9 @@
 
 Bootcamp: Ironhack - Data Analytics Part Time Nov 2020
 
-Data project Module 2
 ---
 
-	
+![image info](./images/diamond.png)	
 
 ## Datasources
 
