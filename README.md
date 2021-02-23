@@ -1,6 +1,5 @@
-# ih_datamadpt0420_project_m2
-### Data project Module 1
-# Country Job analysis 
+### Data project Module 2
+# Diamonds Analysis 
 
 ![Ironhack logo](https://i.imgur.com/1QgrNNw.png)
 
@@ -8,7 +7,7 @@
 
 Bootcamp: Ironhack - Data Analytics Part Time Nov 2020
 
-Data project Module 1
+Data project Module 2
 ---
 
 	
