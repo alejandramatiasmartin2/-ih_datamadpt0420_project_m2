@@ -11,42 +11,41 @@ Bootcamp: Ironhack - Data Analytics Part Time Nov 2020
 
 ![image info](./images/diamond.png)	
 
-## Datasources
+## Overview
 
-There are 3 different datasources involved:
+The objective of this project is to analyze a diamond database through two main steps:
 
-- <strong>Tables (.db): </strong> the main dataset.
+1. Building an exploratory data analysis report in order to gain initial insight on our diamonds dataset
+2. Building a data dashboard using our diamonds dataset 
+
+### Datasource
+
+
+- <strong>diamonds_train.csv </strong> - the main dataset.
 
 - <strong>API:</strong> from the [Open Skilss Project](http://dataatwork.org/data/)
 
-- <strong>Web Scraping: </strong> It is required to retrieve information about country codes from [Eurostat website](https://ec.europa.eu/eurostat/statistics-explained/index.php/Glossary:Country_codes)
+## Exploratory data analysis report: Instructions
 
-
-## :clipboard: Instructions
-
-In this project we are going to create a Data Pipeline that retrieves the following table:
+In order to make a good exploratory analysis, we will draw Summary statistics including descriptive statistics 
+Summary statistics including descriptive statistics (max, min, mean, standard deviation, percentiles, correlations, etc.) and data types (integer, float, boolean, string, etc.).
+Data visualizations charts in order to capture a large amount of data all at once in a clear and concise manner (Box Plots, Histograms, Bar Plots, Scatter Plots, Correlation Matrix, etc.).
 
 | Country       | Job Title      | Gender | Quantity | Percentage |
 | :-----------: |:-------------: | :-----:| :-------:| :---------:|
 | Spain         | Data Scientist | Female | 25       | 5%         | 
 | Spain         | Data Scientist | Male   | 25       | 5%         |
 
-In order to achieve this, we are going to follow these steps: 
-- [x] Create repository
-- [x] README.md
-- [x] Connection to database (.db)
-- [x] Cleaning data
-- [x] Connection to API
-- [x] Web scrapping
-- [x] Merge dataframes
-- [ ] Provide two options to the final user to select when executing: get the table of all countries/specify one.
-- [x] Create csv files containing the dataframes
+
+
+## Tableau Data Dashboard
 ___
 ### :computer: **Technology stack**
 - Python
 - Pandas
-- Sqlalchemy
-- BeautifulSoup
+- Tableau
+- Matplotlib
+- Numpy
 
 
 ## :file_folder: Folder structure
