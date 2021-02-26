@@ -53,6 +53,9 @@ Also data visualizations charts in order to capture a large amount of data all a
 
 
 ## Tableau Data Dashboard
+
+### Conclusions
+
 ___
 ### :computer: **Technology stack**
 - Python
