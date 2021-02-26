@@ -38,14 +38,17 @@ The objective of this project is to analyze a diamond database through two main 
 
 ## Exploratory data analysis report: Instructions
 
-In order to make a good exploratory analysis, we will draw Summary statistics including descriptive statistics 
-Summary statistics including descriptive statistics (max, min, mean, standard deviation, percentiles, correlations, etc.) and data types (integer, float, boolean, string, etc.).
-Data visualizations charts in order to capture a large amount of data all at once in a clear and concise manner (Box Plots, Histograms, Bar Plots, Scatter Plots, Correlation Matrix, etc.).
+In order to make a good exploratory analysis, I have done Summary statistics including descriptive statistics:
+- max
+- min
+- mean
+- standard deviation
+- percentiles
+- correlations 
+- data types 
 
-| Country       | Job Title      | Gender | Quantity | Percentage |
-| :-----------: |:-------------: | :-----:| :-------:| :---------:|
-| Spain         | Data Scientist | Female | 25       | 5%         | 
-| Spain         | Data Scientist | Male   | 25       | 5%         |
+Also data visualizations charts in order to capture a large amount of data all at once in a clear and concise manner (Box Plots, Histograms, Bar Plots, Scatter Plots, Correlation Matrix, etc.).
+
 
 
 
@@ -57,6 +60,7 @@ ___
 - Tableau
 - Matplotlib
 - Numpy
+- Seaborn
 
 
 ## :file_folder: Folder structure
@@ -64,30 +68,12 @@ ___
 └── project
     ├── __trash__
     ├── .gitignore
-    ├── .env
     ├── README.md
-    ├── main_script.py
-    ├── cleaning_raw.ipynb
-    |
-    ├── p_acquisition
-    │   ├── m_acquisition.py
-    │   └── __init__.py
-    |
-    |── p_wrangling
-    |    ├── m_wrangling.py
-    |    ├── __init__.py
-    |   
-    ├── p_analysis
-    │   ├── m_analysis.py
-    │   └── __init__-py
-    ├── p_reporting
-    │   ├── m_analysis.py
-    │   └── __init__.py
-    |__ results
-    |
-    └── data
-        ├── raw
-        ├── processed
+    ├── data_analysis_report.ipynb
+    ├── data
+    │   ├── diamonds.csv
+    |── images
+
     
 ```
 	
