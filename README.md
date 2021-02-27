@@ -53,7 +53,7 @@ Based on the analysis done in the data analysis report, I have plotted in Tablea
 - The <strong>carat</strong> is the characteristic with the highest correlation to the <strong>price</strong> of the diamond: the higher the carat (the more it weighs), the higher the price.
 - The volume is also highly correlated to the price.
 - In terms of <strong>color</strong>, I would have originally thought that diamonds with a D color (100 % colorless), which is the best, would have the highest average price. However, the ones with the highest average price are the J and I (less colorless).
-- Diamonds with de highest carat and average price are mainly less colorless (J, I, H).
+- Diamonds with the highest carat and average price are mainly less colorless (J, I, H).
 	
 
 ___
