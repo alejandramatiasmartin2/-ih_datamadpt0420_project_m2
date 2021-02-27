@@ -23,9 +23,9 @@ The objective of this project is to analyze a diamond database through two main 
 
 - <strong>diamonds_train.csv </strong> - the main dataset.
 
-##### Features
+### Features
 
-- carat: weight of the diamond
+- carat: weight of the diamond (A 1 Carat Diamond equals 200 milligrams and weighs about the same as a quarter of a raisin)
 - cut: quality of the cut (Fair, Good, Very Good, Premium, Ideal)
 - color: diamond colour, from J (worst) to D (best)
 - clarity: a measurement of how clear the diamond is (I1 (worst), SI2, SI1, VS2, VS1, VVS2, VVS1, IF (best))
@@ -38,23 +38,23 @@ The objective of this project is to analyze a diamond database through two main 
 
 ## Exploratory data analysis report: Instructions
 
-In order to make a good exploratory analysis, I have done Summary statistics including descriptive statistics:
-- max
-- min
-- mean
-- standard deviation
-- percentiles
-- correlations 
-- data types 
+In order to make a good exploratory analysis, I have done Summary statistics including descriptive statistics:max, min, mean, standard deviation, percentiles, correlations, data types, etc.
 
-Also data visualizations charts in order to capture a large amount of data all at once in a clear and concise manner (Box Plots, Histograms, Bar Plots, Scatter Plots, Correlation Matrix, etc.).
-
-
+Also I made data visualizations charts in order to capture a large amount of data all at once in a clear and concise manner (Box Plots, Bar Plots, Correlation Matrix, etc.).
 
 
 ## Tableau Data Dashboard
 
+Based on the analysis done in the data analysis report, I have plotted in Tableau to corroborate the main insights I have drawn from this data set.
+ You can access to the dashbord [here.](https://public.tableau.com/profile/alejandra.mat.as.mart.n#!/vizhome/Diamondsdashboard/DiamondsDashboard?publish=yes)
+
 ### Conclusions
+
+- The <strong>carat</strong> is the characteristic with the highest correlation to the <strong>price</strong> of the diamond: the higher the carat (the more it weighs), the higher the price.
+- The volume is also highly correlated to the price.
+- In terms of <strong>color</strong>, I would have originally thought that diamonds with a D color (100 % colorless), which is the best, would have the highest average price. However, the ones with the highest average price are the J and I (less colorless).
+- Diamonds with de highest carat and average price are mainly less colorless (J, I, H).
+	
 
 ___
 ### :computer: **Technology stack**
@@ -76,7 +76,7 @@ ___
     ├── data
     │   ├── diamonds.csv
     |── images
-
+    |── Tableau
     
 ```
 	
