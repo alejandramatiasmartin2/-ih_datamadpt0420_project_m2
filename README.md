@@ -69,10 +69,10 @@ ___
 ## :file_folder: Folder structure
 ```
 └── project
-    ├── __trash__
     ├── .gitignore
     ├── README.md
-    ├── data_analysis_report.ipynb
+    ├── data_analysis_report-summary-statistics.ipynb
+    |── data_analysis_report-visualizing-charts.ipynb
     ├── data
     │   ├── diamonds.csv
     |── images
